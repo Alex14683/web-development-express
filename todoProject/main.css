@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+}
+
+input,
+button,
+select {
+    background-color: #eee;
+}
+
+input {
+    width: 100%;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+ul {
+    list-style: none;
+    background-color: lightyellow;
+    margin: 10px 0px;
+    border-bottom: 1px solid;
+}
+
+li {
+    border-top: 1px solid;
+}
