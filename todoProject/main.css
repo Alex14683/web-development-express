@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 600px;
     box-sizing: border-box;
 }
 
@@ -13,6 +14,7 @@ input,
 button,
 select {
     background-color: #eee;
+    padding: 5px;
 }
 
 input {
@@ -32,4 +34,5 @@ ul {
 
 li {
     border-top: 1px solid;
+    padding: 5px;
 }
