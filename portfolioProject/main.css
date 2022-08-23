@@ -12,7 +12,7 @@ html {
 body {
     margin: auto;
     padding: 20px 30px;
-    font-size: 95%;
+    font-size: 15px;
     font-family: sans-serif;
 }
 
@@ -36,13 +36,13 @@ body {
     float: right;
 }
 
-.menu-items {
+.menu-item {
     display: flex;
     flex-direction: column;
     list-style-type: none;
 }
 
-.menu-list-items {
+.menu-list-item {
     margin-bottom: 1rem;
     margin-right: 1rem;
     font-size: 1.2rem;
