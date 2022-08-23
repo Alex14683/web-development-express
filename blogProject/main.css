@@ -1,0 +1,31 @@
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+body{
+    background-color: rgb(243, 238, 255);
+    color: rgb(26, 1, 114);
+}
+
+header,
+main,
+footer {
+    padding: 40px 120px;
+}
+
+header,
+footer {
+    background-color: aliceblue;
+}
+
+section {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
