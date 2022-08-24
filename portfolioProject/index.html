@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <nav class="left-container">
+                    <ul class="menu-item">
+                        <li class="menu-list-item">
+                            <a href="#about" class="about-color">About</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#projects" class="projects-color">Projects</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#videos" class="videos-color">Videos</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#contact" class="contact-color">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="right-container">
+                    <h1>Welcome</h1>
+                    <img
+                        class="profile-picture"
+                        src="https://picsum.photos/250/250"
+                        alt="A random picture from picsum photos"
+                    />
+                    <h2 id="about" class="about-color">About</h2>
+                    <p>My name is Alexis González, and I'm a web & mobile app developer.</p>
+                    <p>
+                        I primarily work with <strong>React</strong>,
+                        <strong>React Native</strong> and <strong>Angular</strong>.
+                    </p>
+                    <blockquote>Open source is fun, sometimes.</blockquote>
+                    <h2 id="projects" class="projects-color">Projects</h2>
+                    <p>Here are a few open source projects I've worked on:</p>
+                    <ul>
+                        <li><a href="https://react.express">React Express</a></li>
+                        <li><a href="https://reactnative.express">React Native Express</a></li>
+                        <li><a href="https://javascript.express">JavaScript</a></li>
+                        <li><a href="https://typescript.express">TypeScript</a></li>
+                      </ul>
+                    <h2 id="videos" class="videos-color">Videos</h2>
+                    <p>Here's a video of some cats:</p>
+                    <iframe
+                        class="youtube-embed"
+                        src="https://www.youtube.com/embed/eX2qFMC8cFo"
+                    ></iframe>
+                    <h2 id="contact" class="contact-color">Contact</h2>
+                    <p>Want to say hi?</p>
+                    <form 
+                        method="post"
+                        action="https://echo-form-body-u6ozq7lkydx0.runkit.sh/"
+                    >
+                        <div class="form-row">
+                            <label for="name">Name</label
+                                ><input
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    placeholder="Your name"
+                                />
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label
+                                ><input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    placeholder="Your email address"
+                                />
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Subject</label
+                                ><select name="subject">
+                                    <option value="oss">Open source projects</option>
+                                    <option value="training">Training sessions</option>
+                                    <option value="hello">Just saying hello</option>
+                                </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Additional comments</label
+                                ><textarea placeholder="Comment here"></textarea>
+                        </div>
+                        <div class="form-row submit-button">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

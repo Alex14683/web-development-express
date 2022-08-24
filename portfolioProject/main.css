@@ -1,0 +1,168 @@
+html {
+    background-color: #222;
+    color: white;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container{
+    flex: 0 0 200px;
+    margin-top: 56px;
+}
+
+.right-container{
+    flex: 1;
+}
+
+.profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: right;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.menu-list-item {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h1,
+h2,
+p,
+ul {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+a {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+}
+
+.form-row {
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+}
+
+.form-row > label {
+    flex: 0 0 100px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.form-row > input,
+.form-row > select,
+.form-row > textarea {
+  font-size: 1.2rem;
+  background-color: #444;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  color: grey;
+  min-width: 0;
+  flex: 1 1 0%;
+}
+
+.submit-button {
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #a00051;
+    padding: .1rem .5rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 1px 4px black;
+    transition: 0.5s;
+}
+  
+button:hover {
+    background-color: #ff5bae;
+    border-color: transparent;
+}
+  
+button:active {
+    background-color: #ff7abd;
+    border-color: transparent;
+}
+  
+.about-color{
+    color: #45fad4;
+}
+
+.projects-color{
+    color: #6ee2ff;
+}
+
+.videos-color{
+    color: #6c61ec;
+}
+
+.contact-color{
+    color: #fe95bb;
+}
+
+blockquote {
+    margin: 20px;
+    font-style: italic;
+}
+  
+blockquote::before {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #a00051;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url('https://webdev.express/static/quotes.png');
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        padding: 48px;
+    }
+}
+  
+@media (max-width: 600px) {
+    main {
+      padding: 48px;
+    }
+}
