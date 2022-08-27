@@ -1,9 +1,0 @@
-{
-  "type": "module",
-  "name": "pricesAPI",
-  "version": "1.0.0",
-  "dependencies": {
-    "moment": "^2.29.4",
-    "node-fetch": "^3.2.10"
-  }
-}
